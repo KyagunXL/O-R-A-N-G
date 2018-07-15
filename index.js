@@ -45,4 +45,4 @@ bot.on("message", async message => {
   
 
     
-  bot.login(token);
+  bot.login(token).catch(err => console.log(err));
